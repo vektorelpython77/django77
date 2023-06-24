@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div>
+{{data}}
+{% for post in postlar %}
+<h1>{{post.baslik}}</h1>
+<p>{{post.yazi}}</p>
+{% endfor %}
+</div>
+</body>
+</html>
